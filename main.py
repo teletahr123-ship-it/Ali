@@ -509,7 +509,7 @@ def results_message(
     )
     if original_query and original_query != query:
         message = (
-            f"✏️ تم تحسين البحث من: {html.escape(original_query)}\n\n"
+            f"⤶ تم تحسين البحث من: {html.escape(original_query)}\n\n"
             + message
         )
     return message
